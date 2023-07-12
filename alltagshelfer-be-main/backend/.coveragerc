@@ -1,0 +1,8 @@
+[run]
+source = .
+branch = true
+omit = */tests/*, */migrations/*, */urls.py, */__init__.py, */settings/*, */wsgi.py, manage.py, fabfile.py
+
+[report]
+show_missing = true
+fail_under = 100

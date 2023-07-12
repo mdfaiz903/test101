@@ -1,0 +1,2039 @@
+{
+	"info": {
+		"_postman_id": "d131d3dc-0cad-4647-a6df-614c9e51324c",
+		"name": "Alltagshelfer Terminplaner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25436650"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Single User",
+					"item": [
+						{
+							"name": "Create a new User",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"salutation\":\"Herr\",\n    \"lastname\": \"testnachname\",\n    \"firstname\": \"vorname\",\n    \"password\": \"myPassword\",\n    \"street\": \"Mellinghoferstr.\",\n    \"house_number\":\"15\",\n    \"city\":\"Oberhausen\",\n    \"zip\":\"46047\",\n    \"birthday\":\"1992-11-10\",\n    \"role\":\"SUPERVISOR\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create Martin Müller (required fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lastname\": \"Müller\",\n    \"firstname\": \"Martin\",\n    \"password\": \"testpasswort\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								},
+								{
+									"name": "Create Martin Müller (all fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lastname\": \"Müller\",\n    \"firstname\": \"Martin\",\n    \"password\": \"testpassword\",            \n    \"salutation\": \"Herr\",            \n    \"street\": \"Mellinghoferstr.\",\n    \"house_number\": \"16a\",\n    \"city\": \"Oberhausen\",\n    \"zip\": \"46047\",\n    \"address_addition\": \"Seiteneingang\",\n    \"phone_mobile\": \"0151 123456789\",\n    \"phone_house\": \"0208 123456789\",\n    \"birthday\": \"1992-11-10\",\n    \"email\": \"martin.mueller@testmail.com\",\n    \"comments\": \"Kommentar\",\n    \"role\": \"CAREGIVER\",\n    \"monthly_working_hours\": 80.0\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Get User",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/735dc5b8-b3d2-4f64-a4c1-9f34bada291a/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update User Base Fields",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"salutation\": \"Frau\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/3c3d3581-d752-4a0b-bbd8-56ebff71386f/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"3c3d3581-d752-4a0b-bbd8-56ebff71386f",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete User",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8000/api/users/1c5c7034-b25f-4f95-afa9-258702ca2de8/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"1c5c7034-b25f-4f95-afa9-258702ca2de8",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create Martin Müller (required fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/vnd.api+json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"data\":{\n        \"type\":\"User\",\n        \"attributes\":{\n            \"lastname\": \"Müller\",\n            \"firstname\": \"Martin\",\n            \"password\": \"testpasswort\",\n            \"role\": \"CAREGIVER\"\n        }\n    }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								},
+								{
+									"name": "Create Martin Müller (all fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/vnd.api+json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"data\": {\n        \"type\": \"User\",\n        \"attributes\": {\n            \"lastname\": \"Müller\",\n            \"firstname\": \"Martin\",\n            \"password\": \"testpassword\",            \n            \"salutation\": \"Herr\",            \n            \"street\": \"Mellinghoferstr.\",\n            \"house_number\": \"16a\",\n            \"city\": \"Oberhausen\",\n            \"zip\": \"46047\",\n            \"address_addition\": \"Seiteneingang\",\n            \"phone_mobile\": \"0151 123456789\",\n            \"phone_house\": \"0208 123456789\",\n            \"birthday\": \"1992-11-10\",\n            \"email\": \"martin.mueller@testmail.com\",\n            \"comments\": \"Kommentar\",\n            \"role\": \"CAREGIVER\",\n            \"monthly_working_hours\": 80.0\n        }\n    }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Get User (Custom) Fields List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/735dc5b8-b3d2-4f64-a4c1-9f34bada291a/fields",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+										"fields"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get User (Custom) Fields",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/76cf4299-29d7-49b2-9d61-572f9a16f49a/fields",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												"76cf4299-29d7-49b2-9d61-572f9a16f49a",
+												"fields"
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Create or Update User (Custom) Field",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"field\": 6,\n    \"value\": \"12,50\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/735dc5b8-b3d2-4f64-a4c1-9f34bada291a/fields",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+										"fields"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get User (Custom) Fields",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/99b8676b-668d5-5c9288a6456e/fields",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												"99b8676b-668d5-5c9288a6456e",
+												"fields"
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Get specific User (Custom) Field",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/735dc5b8-b3d2-4f64-a4c1-9f34bada291a/fields/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+										"fields",
+										"2"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get User (Custom) Fields",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/99b8676b-668d5-5c9288a6456e/fields",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												"99b8676b-668d5-5c9288a6456e",
+												"fields"
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Update specific User (Custom) Field",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"value\": \"1,91\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/735dc5b8-b3d2-4f64-a4c1-9f34bada291a/fields/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+										"fields",
+										"4"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get User (Custom) Fields",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/99b8676b-668d5-5c9288a6456e/fields",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												"99b8676b-668d5-5c9288a6456e",
+												"fields"
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Delete specific User (Custom) Field",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 3,\n    \"value\": \"true\",\n    \"field\": 5\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/735dc5b8-b3d2-4f64-a4c1-9f34bada291a/fields/3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+										"fields",
+										"3"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get User (Custom) Fields",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/99b8676b-668d5-5c9288a6456e/fields",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												"99b8676b-668d5-5c9288a6456e",
+												"fields"
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Change password",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"password\":\"alltagshelfer1234\",\n    \"password2\":\"alltagshelfer1234\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/0bf1b08a-a410-4b2e-9cd1-ebebb78e33b5/changepassword",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"0bf1b08a-a410-4b2e-9cd1-ebebb78e33b5",
+										"changepassword"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Visibility of fields in User List",
+					"item": [
+						{
+							"name": "Get User List Visibility Settings",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/3c3d3581-d752-4a0b-bbd8-56ebff71386f/fields/visibility",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"3c3d3581-d752-4a0b-bbd8-56ebff71386f",
+										"fields",
+										"visibility"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Users List (full: base + custom fields)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/?:full=true",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											],
+											"query": [
+												{
+													"key": ":full",
+													"value": "true"
+												}
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								},
+								{
+									"name": "Get User List (only base fields)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/?:full=false",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											],
+											"query": [
+												{
+													"key": ":full",
+													"value": "false"
+												}
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Change User List Visibility Setting",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"fieldname\": \"salutation\",\n    \"visible\": false\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/users/3c3d3581-d752-4a0b-bbd8-56ebff71386f/fields/visibility",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										"3c3d3581-d752-4a0b-bbd8-56ebff71386f",
+										"fields",
+										"visibility"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Users List (full: base + custom fields)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/?:full=true",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											],
+											"query": [
+												{
+													"key": ":full",
+													"value": "true"
+												}
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								},
+								{
+									"name": "Get User List (only base fields)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/users/?:full=false",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											],
+											"query": [
+												{
+													"key": ":full",
+													"value": "false"
+												}
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Get Users List (Complete)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/users/?full=true",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								""
+							],
+							"query": [
+								{
+									"key": "full",
+									"value": "true"
+								},
+								{
+									"key": "full",
+									"value": "false",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Users List (full: base + custom fields)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/?:full=true",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									],
+									"query": [
+										{
+											"key": ":full",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Get User List (only base fields)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/?:full=false",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									],
+									"query": [
+										{
+											"key": ":full",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Get Requesting User Information",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/users/me",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Users List (full: base + custom fields)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/?:full=true",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									],
+									"query": [
+										{
+											"key": ":full",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Get User List (only base fields)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/?:full=false",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									],
+									"query": [
+										{
+											"key": ":full",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Login as admin (superuser)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = JSON.parse(responseBody);",
+									"pm.environment.set(\"token\", res.access);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "alltagshelfer1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login as user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res = JSON.parse(responseBody);",
+									"pm.environment.set(\"token\", res.access);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "farisabdelrehim",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "alltagshelfer1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "refresh",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3NjU2NTUwMCwiaWF0IjoxNjc2NDc5MTAwLCJqdGkiOiJiOTk0M2UyMGZiNTY0YzI0OWQ3YTk3MWU3MjdlOTYwNyIsInVzZXJfaWQiOiI0Mjk3MjU0Yi01MWJiLTQxOTItYTJmYy02NDk2NjZlMGQ4YjUifQ.PNGEGpxnawywBPUyOiNQjRZV9AVVYchTMUj81FOMU6U",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/logout/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"logout",
+								""
+							],
+							"query": [
+								{
+									"key": null,
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc2MzA2NDQ3LCJpYXQiOjE2NzYzMDYxNDcsImp0aSI6ImMyNTAwNzFkNTZhNjRjOTk4N2NjODZlZjc5ODExMWE1IiwidXNlcl9pZCI6IjdiODM5ZjM5LTVkZDgtNDM2Zi04NjQ5LTliZGY0NWNjZGIwYyJ9.M1i3VEGneq3QZvpqvYgvQIcMOR0oGgtKlImvmJLYBF8",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout from all devices",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "refresh",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY3NjM5MDkxOCwiaWF0IjoxNjc2MzA0NTE4LCJqdGkiOiI4OGZlZmM0NjM3NTg0Yzk2YTQ1MDBmOWEwMDcxZTMwNCIsInVzZXJfaWQiOiI3YjgzOWYzOS01ZGQ4LTQzNmYtODY0OS05YmRmNDVjY2RiMGMifQ.jxVsOMHsgioOExIe9JLfGA9fu-b6Zld7l2tiGjNAY5c",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/logout_all/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"logout_all",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Field Meta Data",
+			"item": [
+				{
+					"name": "Single Field",
+					"item": [
+						{
+							"name": "Create new field",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"kind\": \"customer\",\n    \"field_type\": {\n        \"id\": 3\n    },\n    \"placeholder\": null,\n    \"enums\": [\"1\",\"2\",\"3\"],\n    \"title\": \"Neuestes Feld\",\n    \"required\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/fields/metadata/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"fields",
+										"metadata",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Field Meta Data (Single)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/fields/metadata/26",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"fields",
+										"metadata",
+										"26"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Field Meta Data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"kind\": \"customer\",\n    \"placeholder\": null,\n    \"enums\":[\"Salamibrotschmierer\",\"3,23\",\"120.54\"],\n    \"title\": \"Vertragsart\",\n    \"required\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/fields/metadata/9/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"fields",
+										"metadata",
+										"9",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Field Meta Data",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/fields/metadata/16/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"fields",
+										"metadata",
+										"16",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get List of Fields Meta Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/fields/metadata/?full=true&kind=user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"fields",
+								"metadata",
+								""
+							],
+							"query": [
+								{
+									"key": "full",
+									"value": "true"
+								},
+								{
+									"key": "full",
+									"value": "false",
+									"disabled": true
+								},
+								{
+									"key": "kind",
+									"value": "user"
+								},
+								{
+									"key": "kind",
+									"value": "customer",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reorder of Fields Meta Data",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {    \n        \"kind\":\"user\",\n        \"order\":\n        [\n            {\n                \"id\": 1,\n                \"position\": 0\n            },\n            {\n                \"id\": 2,\n                \"position\": 1\n            },\n            {\n                \"id\": 3,\n                \"position\": 2\n            },\n            {\n                \"id\": 5,\n                \"position\": 3\n            },\n            {\n                \"id\": 4,\n                \"position\": 4\n            },\n            {\n                \"id\": 6,\n                \"position\": 5\n            },\n            {\n                \"id\": 7,\n                \"position\": 6\n            },\n            {\n                \"id\": 8,\n                \"position\": 7\n            },\n            {\n                \"id\": 9,\n                \"position\": 8\n            },\n            {\n                \"id\": 11,\n                \"position\": 9\n            },\n            {\n                \"id\": 10,\n                \"position\": 10\n            }\n        ] \n\n    }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/fields/metadata/reorder/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"fields",
+								"metadata",
+								"reorder",
+								""
+							],
+							"query": [
+								{
+									"key": "full",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "kind",
+									"value": "customer",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Reorder of Fields Meta Data (user fields)",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {    \n        \"kind\":\"user\",\n        \"order\":\n        [\n            {\n                \"id\": 1,\n                \"position\": 0\n            },\n            {\n                \"id\": 3,\n                \"position\": 1\n            },\n            {\n                \"id\": 2,\n                \"position\": 2\n            },\n            {\n                \"id\": 5,\n                \"position\": 3\n            },\n            {\n                \"id\": 4,\n                \"position\": 4\n            },\n            {\n                \"id\": 6,\n                \"position\": 5\n            },\n            {\n                \"id\": 7,\n                \"position\": 6\n            },\n            {\n                \"id\": 8,\n                \"position\": 7\n            },\n            {\n                \"id\": 9,\n                \"position\": 8\n            },\n            {\n                \"id\": 11,\n                \"position\": 9\n            },\n            {\n                \"id\": 10,\n                \"position\": 10\n            }\n        ] \n\n    }\n]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/fields/metadata/reorder/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"fields",
+										"metadata",
+										"reorder",
+										""
+									],
+									"query": [
+										{
+											"key": "full",
+											"value": "true",
+											"disabled": true
+										},
+										{
+											"key": "kind",
+											"value": "customer",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Reorder of Fields Meta Data (customer fields)",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {    \n        \"kind\":\"customer\",\n        \"order\":\n        [\n            {\n                \"id\": 12,\n                \"position\": 1\n            },\n            {\n                \"id\": 13,\n                \"position\": 0\n            }\n        ] \n\n    }\n]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/fields/metadata/reorder/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"fields",
+										"metadata",
+										"reorder",
+										""
+									],
+									"query": [
+										{
+											"key": "full",
+											"value": "true",
+											"disabled": true
+										},
+										{
+											"key": "kind",
+											"value": "customer",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Get List of Field Types",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/fields/fieldtypes/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"fields",
+								"fieldtypes",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Company Sites",
+			"item": [
+				{
+					"name": "Get List of Company Sites",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/companysites/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"companysites",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create New Company Site",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"street\": \"Knappenstr.\",\n        \"house_number\": \"52\",\n        \"city\": \"Oberhausen\",\n        \"zip\": \"46047\",\n        \"address_addition\": \"\",\n        \"phone\": null,\n        \"comments\": \"\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/companysites/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"companysites",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Company Site",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"street\": \"Knappenstr.\",\n        \"house_number\": \"52\",\n        \"city\": \"Oberhausen\",\n        \"zip\": \"46047\",\n        \"address_addition\": \"\",\n        \"phone\": null,\n        \"comments\": \"\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/companysites/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"companysites",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Company Site",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"street\": \"Mühlenstr.\",\n    \"house_number\": \"52\",\n    \"city\": \"Oberhausen\",\n    \"zip\": \"46047\",\n    \"address_addition\": \"\",\n    \"phone\": null,\n    \"comments\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/companysites/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"companysites",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Company Site",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"street\": \"Mühlenstr.\",\n    \"house_number\": \"52\",\n    \"city\": \"Oberhausen\",\n    \"zip\": \"46047\",\n    \"address_addition\": \"\",\n    \"phone\": null,\n    \"comments\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/companysites/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"companysites",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "Single Customer",
+					"item": [
+						{
+							"name": "Create a new Customer",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"salutation\":\"Herr\",\n    \"lastname\": \"testkunde\",\n    \"firstname\": \"testkunde vorname\",\n    \"street\": \"Mellinghoferstr.\",\n    \"house_number\":\"15\",\n    \"city\":\"Oberhausen\",\n    \"zip\":\"46047\",\n    \"birthday\":\"1992-11-10\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/customers/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"customers",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create Martin Müller (required fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lastname\": \"Müller\",\n    \"firstname\": \"Martin\",\n    \"password\": \"testpasswort\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								},
+								{
+									"name": "Create Martin Müller (all fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lastname\": \"Müller\",\n    \"firstname\": \"Martin\",\n    \"password\": \"testpassword\",            \n    \"salutation\": \"Herr\",            \n    \"street\": \"Mellinghoferstr.\",\n    \"house_number\": \"16a\",\n    \"city\": \"Oberhausen\",\n    \"zip\": \"46047\",\n    \"address_addition\": \"Seiteneingang\",\n    \"phone_mobile\": \"0151 123456789\",\n    \"phone_house\": \"0208 123456789\",\n    \"birthday\": \"1992-11-10\",\n    \"email\": \"martin.mueller@testmail.com\",\n    \"comments\": \"Kommentar\",\n    \"role\": \"CAREGIVER\",\n    \"monthly_working_hours\": 80.0\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Get Customer",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"salutation\":\"Herr\",\n    \"lastname\": \"testkunde\",\n    \"firstname\": \"testkunde vorname\",\n    \"street\": \"Mellinghoferstr.\",\n    \"house_number\":\"15\",\n    \"city\":\"Oberhausen\",\n    \"zip\":\"46047\",\n    \"birthday\":\"1992-11-10\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/customers/4098ee00-be32-486e-aa4a-bb6af716ca97/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"customers",
+										"4098ee00-be32-486e-aa4a-bb6af716ca97",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create Martin Müller (required fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lastname\": \"Müller\",\n    \"firstname\": \"Martin\",\n    \"password\": \"testpasswort\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								},
+								{
+									"name": "Create Martin Müller (all fields)",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lastname\": \"Müller\",\n    \"firstname\": \"Martin\",\n    \"password\": \"testpassword\",            \n    \"salutation\": \"Herr\",            \n    \"street\": \"Mellinghoferstr.\",\n    \"house_number\": \"16a\",\n    \"city\": \"Oberhausen\",\n    \"zip\": \"46047\",\n    \"address_addition\": \"Seiteneingang\",\n    \"phone_mobile\": \"0151 123456789\",\n    \"phone_house\": \"0208 123456789\",\n    \"birthday\": \"1992-11-10\",\n    \"email\": \"martin.mueller@testmail.com\",\n    \"comments\": \"Kommentar\",\n    \"role\": \"CAREGIVER\",\n    \"monthly_working_hours\": 80.0\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8000/api/users/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"users",
+												""
+											]
+										}
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"body": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Get Customers List (Complete)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/customers/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"customers",
+								""
+							],
+							"query": [
+								{
+									"key": "full",
+									"value": "false",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Users List (full: base + custom fields)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/?:full=true",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									],
+									"query": [
+										{
+											"key": ":full",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Get User List (only base fields)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/users/?:full=false",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"users",
+										""
+									],
+									"query": [
+										{
+											"key": ":full",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "API Information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

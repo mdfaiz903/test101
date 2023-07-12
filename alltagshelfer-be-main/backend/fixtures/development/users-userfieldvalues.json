@@ -1,0 +1,58 @@
+[
+    {
+        "model": "users.userfieldvalue",
+        "pk": 1,
+        "fields": {
+            "field": 1,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+            "value": [
+                "true"
+            ]
+        }
+    },
+    {
+        "model": "users.userfieldvalue",
+        "pk": 2,
+        "fields": {
+            "field": 2,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+            "value": [
+                "4"
+            ]
+        }
+    },
+    {
+        "model": "users.userfieldvalue",
+        "pk": 3,
+        "fields": {
+            "field": 9,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+            "value": [
+                "Teilzeit"
+            ]
+        }
+    },
+    {
+        "model": "users.userfieldvalue",
+        "pk": 4,
+        "fields": {
+            "field": 10,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a",
+            "value": [
+                "Betreuung",
+                "Einkaufen"
+            ]
+        }
+    },
+    {
+        "model": "users.userfieldvalue",
+        "pk": 5,
+        "fields": {
+            "field": 3,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a",
+            "value": [
+                "2"
+            ]
+        }
+    }
+]

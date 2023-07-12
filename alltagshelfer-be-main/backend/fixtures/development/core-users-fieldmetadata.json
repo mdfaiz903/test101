@@ -1,0 +1,232 @@
+[
+    {
+        "model": "core.fieldmetadata",
+        "pk": 1,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T11:59:41.417Z",
+            "modified_at": "2023-04-21T10:50:04.125Z",
+            "name": "katzenhaarallergie",
+            "title": "Katzenhaarallergie",
+            "default_visible": true,
+            "field_type": 1,
+            "enums": null,
+            "required": true,
+            "placeholder": null,
+            "position": 0,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 2,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:00:15.689Z",
+            "modified_at": "2023-04-21T10:50:07.424Z",
+            "name": "berufserfahrung (in jahren)",
+            "title": "Berufserfahrung (in Jahren)",
+            "default_visible": true,
+            "field_type": 2,
+            "enums": null,
+            "required": false,
+            "placeholder": null,
+            "position": 1,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 3,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:49:57.178Z",
+            "name": "max. termine taeglich",
+            "title": "Max. Termine täglich",
+            "default_visible": false,
+            "field_type": 3,
+            "enums": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "required": false,
+            "placeholder": null,
+            "position": 2,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 4,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:19.108Z",
+            "name": "pflegegrad-betreuung",
+            "title": "Pflegegrad-Betreuung",
+            "default_visible": false,
+            "field_type": 4,
+            "enums": [
+                "1",
+                "2",
+                "3"
+            ],
+            "required": true,
+            "placeholder": null,
+            "position": 3,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 5,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:21.825Z",
+            "name": "korpergrosse",
+            "title": "Körpergröße",
+            "default_visible": false,
+            "field_type": 5,
+            "enums": null,
+            "required": false,
+            "placeholder": null,
+            "position": 4,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 6,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:28.197Z",
+            "name": "stundenlohn",
+            "title": "Stundenlohn",
+            "default_visible": false,
+            "field_type": 6,
+            "enums": [
+                "10",
+                "12.50",
+                "15",
+                "17.50",
+                "22.50",
+                "27.50",
+                "35"
+            ],
+            "required": true,
+            "placeholder": null,
+            "position": 5,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 7,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:30.853Z",
+            "name": "gleitkomma-mehrfachauswahl",
+            "title": "Gleitkomma Mehrfachauswahl",
+            "default_visible": false,
+            "field_type": 7,
+            "enums": [
+                "1.5",
+                "2.5",
+                "3.5"
+            ],
+            "required": false,
+            "placeholder": null,
+            "position": 6,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 8,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:33.623Z",
+            "name": "berufsausbildung",
+            "title": "Berufsausbildung",
+            "default_visible": false,
+            "field_type": 8,
+            "enums": null,
+            "required": false,
+            "placeholder": null,
+            "position": 7,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 9,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:36.488Z",
+            "name": "vertragsart",
+            "title": "Vertragsart",
+            "default_visible": false,
+            "field_type": 9,
+            "enums": [
+                "Minijob",
+                "Freiberufler",
+                "Teilzeit",
+                "Vollzeit"
+            ],
+            "required": true,
+            "placeholder": null,
+            "position": 8,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 10,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:41.606Z",
+            "name": "tatigkeiten",
+            "title": "Tätigkeiten",
+            "default_visible": false,
+            "field_type": 10,
+            "enums": [
+                "Einkaufen",
+                "Reinigung",
+                "Betreuung",
+                "Freizeitgestaltung"
+            ],
+            "required": false,
+            "placeholder": null,
+            "position": 9,
+            "kind": "user"
+        }
+    },
+    {
+        "model": "core.fieldmetadata",
+        "pk": 11,
+        "fields": {
+            "author": "c0339f56-450f-4dff-abd3-5516f58616f9",
+            "created_at": "2023-04-03T12:01:15.900Z",
+            "modified_at": "2023-04-21T10:50:48.029Z",
+            "name": "firmen-eintrittsdatum",
+            "title": "Firmen-Eintrittsdatum",
+            "default_visible": false,
+            "field_type": 11,
+            "enums": null,
+            "required": false,
+            "placeholder": null,
+            "position": 10,
+            "kind": "user"
+        }
+    }
+]

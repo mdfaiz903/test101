@@ -1,0 +1,36 @@
+[
+    {
+        "model": "users.user",
+        "pk": "3c3d3581-d752-4a0b-bbd8-56ebff71386f",
+        "fields": {
+            "password": "pbkdf2_sha256$390000$vwW0Vazobbmqk9egygssft$zkFwTcgZDeaOe8GN41PBX8xYNlCsoY/NzMnem0PHTlQ=",
+            "last_login": "2023-04-03T12:20:49.136Z",
+            "date_joined": "2023-04-03T12:20:27.724Z",
+            "salutation": "",
+            "lastname": "admin",
+            "firstname": "",
+            "street": "beispielstr.",
+            "house_number": "16",
+            "city": null,
+            "zip": null,
+            "address_addition": null,
+            "phone_mobile": null,
+            "phone_house": null,
+            "birthday": "1992-11-10",
+            "email": null,
+            "comments": null,
+            "deleted": false,
+            "deleted_at": null,
+            "author": null,
+            "role": "ADMIN",
+            "companysite": null,
+            "username": "admin",
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "invalidate_before": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

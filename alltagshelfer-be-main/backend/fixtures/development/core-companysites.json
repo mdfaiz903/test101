@@ -1,0 +1,28 @@
+[
+    {
+        "model": "core.companysite",
+        "pk": 1,
+        "fields": {
+            "street": "Steeler Str.",
+            "house_number": "272",
+            "city": "Oberhausen",
+            "zip": "45138",
+            "address_addition": "Essen Mitte",
+            "phone": null,
+            "comments": ""
+        }
+    },
+    {
+        "model": "core.companysite",
+        "pk": 2,
+        "fields": {
+            "street": "Donnerstr.",
+            "house_number": "257",
+            "city": "Essen",
+            "zip": "45357",
+            "address_addition": "Essen Nord",
+            "phone": null,
+            "comments": ""
+        }
+    }
+]

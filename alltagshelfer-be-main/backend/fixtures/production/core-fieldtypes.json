@@ -1,0 +1,90 @@
+[
+    {
+        "model": "core.fieldtype",
+        "pk": 1,
+        "fields": {
+            "data_type": "boolean",
+            "input_type": "checkbox"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 2,
+        "fields": {
+            "data_type": "integer",
+            "input_type": "input"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 3,
+        "fields": {
+            "data_type": "integer",
+            "input_type": "select"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 4,
+        "fields": {
+            "data_type": "integer",
+            "input_type": "multiselect"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 5,
+        "fields": {
+            "data_type": "float",
+            "input_type": "input"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 6,
+        "fields": {
+            "data_type": "float",
+            "input_type": "select"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 7,
+        "fields": {
+            "data_type": "float",
+            "input_type": "multiselect"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 8,
+        "fields": {
+            "data_type": "string",
+            "input_type": "input"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 9,
+        "fields": {
+            "data_type": "string",
+            "input_type": "select"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 10,
+        "fields": {
+            "data_type": "string",
+            "input_type": "multiselect"
+        }
+    },
+    {
+        "model": "core.fieldtype",
+        "pk": 11,
+        "fields": {
+            "data_type": "date",
+            "input_type": "date"
+        }
+    }
+]

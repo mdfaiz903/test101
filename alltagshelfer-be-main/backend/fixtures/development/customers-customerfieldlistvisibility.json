@@ -1,0 +1,731 @@
+[
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 228,
+        "fields": {
+            "fieldname": "salutation",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 29,
+        "fields": {
+            "fieldname": "lastname",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 30,
+        "fields": {
+            "fieldname": "firstname",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 31,
+        "fields": {
+            "fieldname": "street",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 32,
+        "fields": {
+            "fieldname": "house_number",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 33,
+        "fields": {
+            "fieldname": "city",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 34,
+        "fields": {
+            "fieldname": "zip",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 35,
+        "fields": {
+            "fieldname": "address_addition",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 36,
+        "fields": {
+            "fieldname": "phone_mobile",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 37,
+        "fields": {
+            "fieldname": "phone_house",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 38,
+        "fields": {
+            "fieldname": "birthday",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 39,
+        "fields": {
+            "fieldname": "email",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 40,
+        "fields": {
+            "fieldname": "comments",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 41,
+        "fields": {
+            "fieldname": "created_at",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 42,
+        "fields": {
+            "fieldname": "modified_at",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 43,
+        "fields": {
+            "fieldname": "author",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 44,
+        "fields": {
+            "fieldname": "katzenhaushalt",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 45,
+        "fields": {
+            "fieldname": "renteneintrittsalter",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 46,
+        "fields": {
+            "fieldname": "pflegegrad",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 47,
+        "fields": {
+            "fieldname": "integer multiselect",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 48,
+        "fields": {
+            "fieldname": "korpergrosse",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 49,
+        "fields": {
+            "fieldname": "stundentarif",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 50,
+        "fields": {
+            "fieldname": "gleitkomma-mehrfachauswahl",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 51,
+        "fields": {
+            "fieldname": "zusaetzliche informationen",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 52,
+        "fields": {
+            "fieldname": "gewunschter stundenumfang",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 53,
+        "fields": {
+            "fieldname": "bevorzugte tageszeit",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 54,
+        "fields": {
+            "fieldname": "betreuungsende",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 55,
+        "fields": {
+            "fieldname": "salutation",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 56,
+        "fields": {
+            "fieldname": "lastname",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 57,
+        "fields": {
+            "fieldname": "firstname",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 58,
+        "fields": {
+            "fieldname": "street",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 59,
+        "fields": {
+            "fieldname": "house_number",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 60,
+        "fields": {
+            "fieldname": "city",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 61,
+        "fields": {
+            "fieldname": "zip",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 62,
+        "fields": {
+            "fieldname": "address_addition",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 63,
+        "fields": {
+            "fieldname": "phone_mobile",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 64,
+        "fields": {
+            "fieldname": "phone_house",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 65,
+        "fields": {
+            "fieldname": "birthday",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 66,
+        "fields": {
+            "fieldname": "email",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 67,
+        "fields": {
+            "fieldname": "comments",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 68,
+        "fields": {
+            "fieldname": "created_at",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 69,
+        "fields": {
+            "fieldname": "modified_at",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 70,
+        "fields": {
+            "fieldname": "author",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 72,
+        "fields": {
+            "fieldname": "katzenhaushalt",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 73,
+        "fields": {
+            "fieldname": "renteneintrittsalter",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 74,
+        "fields": {
+            "fieldname": "pflegegrad",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 75,
+        "fields": {
+            "fieldname": "integer multiselect",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 76,
+        "fields": {
+            "fieldname": "korpergrosse",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 77,
+        "fields": {
+            "fieldname": "stundentarif",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 78,
+        "fields": {
+            "fieldname": "gleitkomma-mehrfachauswahl",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 79,
+        "fields": {
+            "fieldname": "zusaetzliche informationen",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 80,
+        "fields": {
+            "fieldname": "gewunschter stundenumfang",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 81,
+        "fields": {
+            "fieldname": "bevorzugte tageszeit",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 82,
+        "fields": {
+            "fieldname": "betreuungsende",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 83,
+        "fields": {
+            "fieldname": "salutation",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 84,
+        "fields": {
+            "fieldname": "lastname",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 85,
+        "fields": {
+            "fieldname": "firstname",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 86,
+        "fields": {
+            "fieldname": "street",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 87,
+        "fields": {
+            "fieldname": "house_number",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 88,
+        "fields": {
+            "fieldname": "city",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 89,
+        "fields": {
+            "fieldname": "zip",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 90,
+        "fields": {
+            "fieldname": "address_addition",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 91,
+        "fields": {
+            "fieldname": "phone_mobile",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 92,
+        "fields": {
+            "fieldname": "phone_house",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 93,
+        "fields": {
+            "fieldname": "birthday",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 94,
+        "fields": {
+            "fieldname": "email",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 95,
+        "fields": {
+            "fieldname": "comments",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 96,
+        "fields": {
+            "fieldname": "created_at",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 97,
+        "fields": {
+            "fieldname": "modified_at",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 98,
+        "fields": {
+            "fieldname": "author",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 99,
+        "fields": {
+            "fieldname": "katzenhaushalt",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 100,
+        "fields": {
+            "fieldname": "renteneintrittsalter",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 101,
+        "fields": {
+            "fieldname": "pflegegrad",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 102,
+        "fields": {
+            "fieldname": "integer multiselect",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 103,
+        "fields": {
+            "fieldname": "korpergrosse",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 104,
+        "fields": {
+            "fieldname": "stundentarif",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 105,
+        "fields": {
+            "fieldname": "gleitkomma-mehrfachauswahl",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 106,
+        "fields": {
+            "fieldname": "zusaetzliche informationen",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 107,
+        "fields": {
+            "fieldname": "gewunschter stundenumfang",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 108,
+        "fields": {
+            "fieldname": "bevorzugte tageszeit",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "customers.customerfieldlistvisibility",
+        "pk": 109,
+        "fields": {
+            "fieldname": "betreuungsende",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    }
+]

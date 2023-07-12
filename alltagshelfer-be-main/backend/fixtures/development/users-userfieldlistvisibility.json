@@ -1,0 +1,812 @@
+[
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 31,
+        "fields": {
+            "fieldname": "salutation",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 32,
+        "fields": {
+            "fieldname": "lastname",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 33,
+        "fields": {
+            "fieldname": "firstname",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 34,
+        "fields": {
+            "fieldname": "username",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 35,
+        "fields": {
+            "fieldname": "street",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 36,
+        "fields": {
+            "fieldname": "house_number",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 37,
+        "fields": {
+            "fieldname": "city",
+            "visible": true,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 38,
+        "fields": {
+            "fieldname": "zip",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 39,
+        "fields": {
+            "fieldname": "address_addition",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 40,
+        "fields": {
+            "fieldname": "phone_mobile",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 41,
+        "fields": {
+            "fieldname": "phone_house",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 42,
+        "fields": {
+            "fieldname": "birthday",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 43,
+        "fields": {
+            "fieldname": "email",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 44,
+        "fields": {
+            "fieldname": "comments",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 45,
+        "fields": {
+            "fieldname": "role",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 46,
+        "fields": {
+            "fieldname": "last_login",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 47,
+        "fields": {
+            "fieldname": "date_joined",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 48,
+        "fields": {
+            "fieldname": "author",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 49,
+        "fields": {
+            "fieldname": "companysite",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 50,
+        "fields": {
+            "fieldname": "firmen-eintrittsdatum",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 51,
+        "fields": {
+            "fieldname": "vertragsart",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 52,
+        "fields": {
+            "fieldname": "tatigkeiten",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 53,
+        "fields": {
+            "fieldname": "max. termine taeglich",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 54,
+        "fields": {
+            "fieldname": "pflegegrad-betreuung",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 55,
+        "fields": {
+            "fieldname": "korpergrosse",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 56,
+        "fields": {
+            "fieldname": "stundenlohn",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 57,
+        "fields": {
+            "fieldname": "gleitkomma-mehrfachauswahl",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 58,
+        "fields": {
+            "fieldname": "berufsausbildung",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 59,
+        "fields": {
+            "fieldname": "berufserfahrung (in jahren)",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 60,
+        "fields": {
+            "fieldname": "katzenhaarallergie",
+            "visible": false,
+            "user": "7e5dc5b8-b3c2-4f64-a4c1-af34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 61,
+        "fields": {
+            "fieldname": "salutation",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 62,
+        "fields": {
+            "fieldname": "lastname",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 63,
+        "fields": {
+            "fieldname": "firstname",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 64,
+        "fields": {
+            "fieldname": "username",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 65,
+        "fields": {
+            "fieldname": "street",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 66,
+        "fields": {
+            "fieldname": "house_number",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 67,
+        "fields": {
+            "fieldname": "city",
+            "visible": true,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 68,
+        "fields": {
+            "fieldname": "zip",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 69,
+        "fields": {
+            "fieldname": "address_addition",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 70,
+        "fields": {
+            "fieldname": "phone_mobile",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 71,
+        "fields": {
+            "fieldname": "phone_house",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 72,
+        "fields": {
+            "fieldname": "birthday",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 73,
+        "fields": {
+            "fieldname": "email",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 74,
+        "fields": {
+            "fieldname": "comments",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 75,
+        "fields": {
+            "fieldname": "role",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 76,
+        "fields": {
+            "fieldname": "last_login",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 77,
+        "fields": {
+            "fieldname": "date_joined",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 78,
+        "fields": {
+            "fieldname": "author",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 79,
+        "fields": {
+            "fieldname": "companysite",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 80,
+        "fields": {
+            "fieldname": "firmen-eintrittsdatum",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 81,
+        "fields": {
+            "fieldname": "vertragsart",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 82,
+        "fields": {
+            "fieldname": "tatigkeiten",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 83,
+        "fields": {
+            "fieldname": "max. termine taeglich",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 84,
+        "fields": {
+            "fieldname": "pflegegrad-betreuung",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 85,
+        "fields": {
+            "fieldname": "korpergrosse",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 86,
+        "fields": {
+            "fieldname": "stundenlohn",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 87,
+        "fields": {
+            "fieldname": "gleitkomma-mehrfachauswahl",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 88,
+        "fields": {
+            "fieldname": "berufsausbildung",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 89,
+        "fields": {
+            "fieldname": "berufserfahrung (in jahren)",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 90,
+        "fields": {
+            "fieldname": "katzenhaarallergie",
+            "visible": false,
+            "user": "735dc5b8-b3d2-4f64-a4c1-9f34bada291a"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 91,
+        "fields": {
+            "fieldname": "salutation",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 92,
+        "fields": {
+            "fieldname": "lastname",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 93,
+        "fields": {
+            "fieldname": "firstname",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 94,
+        "fields": {
+            "fieldname": "username",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 95,
+        "fields": {
+            "fieldname": "street",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 96,
+        "fields": {
+            "fieldname": "house_number",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 97,
+        "fields": {
+            "fieldname": "city",
+            "visible": true,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 98,
+        "fields": {
+            "fieldname": "zip",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 99,
+        "fields": {
+            "fieldname": "address_addition",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 100,
+        "fields": {
+            "fieldname": "phone_mobile",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 101,
+        "fields": {
+            "fieldname": "phone_house",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 102,
+        "fields": {
+            "fieldname": "birthday",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 103,
+        "fields": {
+            "fieldname": "email",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 104,
+        "fields": {
+            "fieldname": "comments",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 105,
+        "fields": {
+            "fieldname": "role",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 106,
+        "fields": {
+            "fieldname": "last_login",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 107,
+        "fields": {
+            "fieldname": "date_joined",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 108,
+        "fields": {
+            "fieldname": "author",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 109,
+        "fields": {
+            "fieldname": "companysite",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 110,
+        "fields": {
+            "fieldname": "firmen-eintrittsdatum",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 111,
+        "fields": {
+            "fieldname": "vertragsart",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 112,
+        "fields": {
+            "fieldname": "tatigkeiten",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 113,
+        "fields": {
+            "fieldname": "max. termine taeglich",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 114,
+        "fields": {
+            "fieldname": "pflegegrad-betreuung",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 115,
+        "fields": {
+            "fieldname": "korpergrosse",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 116,
+        "fields": {
+            "fieldname": "stundenlohn",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 117,
+        "fields": {
+            "fieldname": "gleitkomma-mehrfachauswahl",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 118,
+        "fields": {
+            "fieldname": "berufsausbildung",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 119,
+        "fields": {
+            "fieldname": "berufserfahrung (in jahren)",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    },
+    {
+        "model": "users.userfieldlistvisibility",
+        "pk": 120,
+        "fields": {
+            "fieldname": "katzenhaarallergie",
+            "visible": false,
+            "user": "c0339f56-450f-4dff-abd3-5516f58616f9"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "model": "customers.customer",
+        "pk": "4098ee00-be32-486e-aa4a-bb6af716ca97",
+        "fields": {
+            "author": "3c3d3581-d752-4a0b-bbd8-56ebff71386f",
+            "created_at": "2023-04-28T07:41:43.710Z",
+            "modified_at": "2023-04-28T07:41:43.710Z",
+            "salutation": "Frau",
+            "lastname": "Friedrichs",
+            "firstname": "Sabine",
+            "street": "Heerstraße",
+            "house_number": "26",
+            "city": "Dinslaken",
+            "zip": "46535",
+            "address_addition": "zweite Etage",
+            "phone_mobile": "01521234512345",
+            "phone_house": null,
+            "birthday": "1959-04-02",
+            "email": null,
+            "comments": "",
+            "deleted": false,
+            "deleted_at": null
+        }
+    },
+    {
+        "model": "customers.customer",
+        "pk": "e7d7e70b-7ecb-48a8-830a-1437b32c5225",
+        "fields": {
+            "author": "3c3d3581-d752-4a0b-bbd8-56ebff71386f",
+            "created_at": "2023-04-28T07:41:43.710Z",
+            "modified_at": "2023-04-28T07:41:43.710Z",
+            "salutation": "Herr",
+            "lastname": "Duck",
+            "firstname": "Dagobert",
+            "street": "Tresorstr.",
+            "house_number": "74",
+            "city": "Entenhausen",
+            "zip": "12345",
+            "address_addition": "Eingang auf dem Hinterhof",
+            "phone_mobile": "015298765478",
+            "phone_house": null,
+            "birthday": "1990-02-25",
+            "email": null,
+            "comments": "",
+            "deleted": false,
+            "deleted_at": null
+        }
+    }
+]

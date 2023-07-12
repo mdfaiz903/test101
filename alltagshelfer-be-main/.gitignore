@@ -1,0 +1,17 @@
+.venv/
+.env
+db.sqlite3
+docs_internal/
+env
+__pycache__
+*.DS_Store
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+**/migrations/*
+postgres-data
+*.exe
+db_fixtures.ps1
+db_fixtures.sh

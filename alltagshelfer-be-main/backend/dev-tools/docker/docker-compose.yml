@@ -1,0 +1,73 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15.2
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=postgres"
+      - "POSTGRES_DB=alltagshelfer"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    restart: always
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  app:
+    container_name: app
+    build:
+      context: ../../
+      dockerfile: dev-tools/docker/Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../../:/app
+    restart: always
+    command: bash -c "gunicorn --bind :8000 --workers 1 --threads 8 --timeout 0 alltagshelfer_be.wsgi:application"
+    depends_on:
+      db:
+        condition: service_healthy
+      db_init:
+        condition: service_completed_successfully
+    links:
+      - db
+  db_init:
+    container_name: init_db
+    build:
+      context: ../../
+      dockerfile: dev-tools/docker/seed.Dockerfile
+      args:
+        - DJANGO_ALLOWED_HOSTS=$DJANGO_ALLOWED_HOSTS
+        - SECRET_KEY=$SECRET_KEY
+        - DEBUG=$DEBUG
+        - DB_PASSWORD=$DB_PASSWORD
+        - DB_USER=$DB_USER
+        - INSTANCE_CONNECTION_NAME=$INSTANCE_CONNECTION_NAME
+        - LOG_LEVEL=$LOG_LEVEL
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    links:
+      - db
+  # dashboard:
+  #   # image: europe-west3-docker.pkg.dev/alltagshelfer-381319/alltagshelfer/alltagshelfer-dashboard:0.1.0
+  #   image: alltagshelfer-dashboard-local:0.1.0
+  #   ports:
+  #     - "8080:8080"
+  #   restart: always
+  #   depends_on:
+  #     db:
+  #       condition: service_healthy
+  #   links:
+  #     - db
+
+volumes:
+  postgres-data:

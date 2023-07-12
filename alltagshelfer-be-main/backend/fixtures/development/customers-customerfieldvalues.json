@@ -1,0 +1,24 @@
+[
+    {
+        "model": "customers.customerfieldvalue",
+        "pk": 1,
+        "fields": {
+            "field": 21,
+            "customer": "4098ee00-be32-486e-aa4a-bb6af716ca97",
+            "value": [
+                "Früh"
+            ]
+        }
+    },
+    {
+        "model": "customers.customerfieldvalue",
+        "pk": 2,
+        "fields": {
+            "field": 12,
+            "customer": "4098ee00-be32-486e-aa4a-bb6af716ca97",
+            "value": [
+                "true"
+            ]
+        }
+    }
+]
